@@ -9,7 +9,11 @@
 }
 .center{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main{
+    background-color: rgb(168, 174, 199);
 }
 main h1{
     border-width: 5px;
@@ -21,4 +25,32 @@ main h1{
     border-radius: 7px;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2em;
 }
+#costumers{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+    background-color: rgb(214, 214, 214);
+}
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#costumers td{
+    height: 70px;
+    text-align: center;
+    outline: 2px solid rgba(141, 123, 123, 0.13);
+}
+.title th{
+    background-color: rgb(104, 104, 104);
+    padding: 1em;
+}
+#costumers tr .lorem{
+    width: 20px;
+}
+.margin{
+    margin-bottom: 40px;
+}
+
