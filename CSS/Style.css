@@ -52,12 +52,15 @@ main h1{
 }
 .red{
     color: red;
+    font-size: 30px;
 }
 .green{
     color: green;
+    font-size: 30px;
 }
 .greener{
     color: rgb(143, 173, 143);
+    font-size: 30px;
 }
 #costumers tr .lorem{
     width: 20px;
@@ -73,11 +76,14 @@ footer{
     flex-direction: column;
 }
 footer i{
-    padding: 2em;
+    padding: 1em;
 }
 footer p{
     color: white;
     margin-bottom: 0.2em;
+}
+footer .icons{
+    font-size: 2em;
 }
 @media screen and (min-width: 769px){
     #costumers{
